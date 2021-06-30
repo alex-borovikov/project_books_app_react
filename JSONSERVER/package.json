@@ -1,0 +1,16 @@
+{
+  "name": "JSONSERVER",
+  "version": "1.0.0",
+  "description": "",
+  "port": "4000",
+  "main": "index.js",
+  "scripts": {
+    "script": "json-server -p 5000 --watch db.json"
+  },
+  "keywords": [],
+  "author": "Alex Borovykov",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
